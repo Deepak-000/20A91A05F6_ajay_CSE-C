@@ -1,12 +1,12 @@
 #if loop
 a=int(raw_input("enter a value: "))  #enter your a value
-if a<20 :
+ ''' if your enterd a value i.e,,less then 20 then your block will execute  
+ if a<20 : 
   print(" if demo ")
   print(" a<20 ")
   print(" hello ")
 
-
-#output
+''' output 
 enter a value: 15
  if demo 
   a<20 
