@@ -1,0 +1,29 @@
+price=int(input("Enter Price of Products:"))
+if price>1000 :
+    print("10% discou")
+    Discount=(0.1*price)
+    print("Discount is:",Discount)
+    print("am0unt:",price-discount)
+elif price>2000 :
+    print("20% discount")
+    Discount=(0.2*price)
+    print("Discount is:",Discount)
+     print("am0unt:",price-discount)
+elif price>3000 :
+     print("30% discount ")
+     Discount=(0.3*price)
+     print("Discount is:",Discount)
+      print("am0unt:",price-discount)
+elif price>5000 :
+    print("40% discount")
+    Discount=(0.4*price)
+    print("Discount is:",Discount)
+     print("am0unt:",price-discount)
+else :
+    print("No Discount IS Applicable") 
+    
+Expected Output :
+ Enter Price of Products:8900
+ 40% discount 
+ Discount is:3560
+ am0unt:5340
