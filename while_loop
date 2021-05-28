@@ -1,0 +1,15 @@
+n=int(input("enter start value:"))
+k=int(input("enter end value:"))
+while n<=k:
+ print(n)
+ n+=2
+ 
+ 
+ '''output
+ enter start value:2
+ enter end value:10
+ 2
+ 4
+ 6
+ 8
+ 10
