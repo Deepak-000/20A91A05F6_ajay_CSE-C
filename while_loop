@@ -1,7 +1,7 @@
 n=int(input("enter start value:"))    #enter the starting value 
 k=int(input("enter end value:"))      #enter the ending value 
 j=int(input("enter inc value:"))      #enter the increment value
-while n<=k:         
+while n<=k:       #the loop will execute when the n value is less then or equal to k ;   
  print(n)
  n+=j
  
