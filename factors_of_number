@@ -1,0 +1,13 @@
+n=int(input("enter number:"))
+i=1
+print("factors of",n )
+while(i<=n):
+    if n%i==0:
+        print(i,end=" ")
+    i+=1
+    
+    
+    '''output
+    enter number:56
+    factors of 56
+    1 2 4 7 8 14 28 56 
