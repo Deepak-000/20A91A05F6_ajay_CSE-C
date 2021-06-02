@@ -1,0 +1,16 @@
+i=int(raw_input("enter start value: "))                  #enter your start value of number series i.e..,i=1;
+                                       '''enter 1 for the starting number of the natural numbers i=1; i.e.., natural numbers are
+                                      start with 1 and  'j' is the end value of the natural number series,i.e., we have to enter end value series'''
+j=int(raw_input("enter end value: "))                    # enter your end value for the natural number series
+for n in range(i,j+1):                                   #for_loop gives the all value in range( ) series.
+      print(n)
+      
+  '''output:
+enter start value: 1
+enter end value: 6
+1
+2
+3
+4
+5
+6
