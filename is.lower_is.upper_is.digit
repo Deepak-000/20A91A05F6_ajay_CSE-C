@@ -1,0 +1,31 @@
+n=input('enter your string: ')
+i=0
+k=0
+l=0
+for char in n:
+  if char.islower():
+    i+=1
+  elif char.isupper():
+    k+=1
+  elif char.isdigit():
+    l+=1
+if i>=1:
+  print("atleast one lower:True")
+else:
+  print("atleast one lower:false") 
+if k>=1:
+ print("atleast one upper:True")
+else:
+  print("atleast one upper:false") 
+if l>=1:
+  print("atleast one digit:True")
+else:
+  print("atleast one digit:false") 
+  
+  
+'''output:
+enter your string: i'm 20A91A05F6
+i'm 20A91A05F6
+atleast one lower:True
+atleast one upper:True
+atleast one digit:True
